@@ -17,10 +17,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'samra')
-API_ID = int(environ.get('API_ID', '24942826'))
-API_HASH = environ.get('API_HASH', 'e3e2f3b65ef58634139ccd27d6b7d8cb')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7453674332:AAEVJU6UJd7XL_JaUEboQMJgoRpqv83kMNk")
+SESSION = environ.get('SESSION', '0')
+API_ID = int(environ.get('API_ID', '0'))
+API_HASH = environ.get('API_HASH', '0')
+BOT_TOKEN = environ.get('BOT_TOKEN', "0")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
